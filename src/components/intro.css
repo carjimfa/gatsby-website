@@ -1,0 +1,44 @@
+div.intro{
+    margin-top: 10%;
+    margin:10% 20% 0 20%;
+    text-align: center;
+}
+
+div.title{
+    width:34%;
+    margin:0 33% 0 33%;
+}
+
+div.intro h1{
+    margin:0 0 0 0;
+    color:#00ECA2;
+    text-transform: uppercase;
+    font-family: 'Roboto Mono', monospace;
+}
+
+h1.part1{
+    font-size:2vw;
+}
+
+div.intro h5{
+    margin-top: 2%;
+    color:white;
+    font-family: 'Rubik';
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 1em;
+}
+
+div.intro h2{
+    font-size:3em;
+    font-family: 'Roboto Mono', monospace;
+    color:#00ECA2;
+}
+
+div.intro h2 span{
+    color:white;
+}
+
+div.msga{
+    margin-top: 10%;
+}
