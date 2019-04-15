@@ -6,10 +6,8 @@ import Image from "../components/image"
 import SEO from "../components/seo"
 import Intro from "../components/intro"
 
-const IndexPage = () => (
+const ContactPage = () => (
   <Layout>
-    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    <Intro/>
     <div style={{ maxWidth: `200px`, marginBottom: `1.45rem` }}>
       {/* <Image /> */}
     </div>
@@ -17,4 +15,4 @@ const IndexPage = () => (
   </Layout>
 )
 
-export default IndexPage
+export default ContactPage

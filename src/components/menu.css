@@ -1,0 +1,47 @@
+.menu{
+    top: 100vh;
+    left: 0;
+    width: 100vh;
+    position: absolute;
+    display: block;
+    -webkit-transform-origin: left top;
+    transform-origin: left top;
+    -webkit-transform: rotate(270deg);
+    transform: rotate(270deg);
+}
+
+.menu ul{
+    word-wrap: none;
+    overflow-y: hidden;
+    white-space: nowrap;
+    height: 2vw;
+    margin: 0 5vh 0 5vh;
+    text-align: center;
+    width: 90vh;
+}
+
+.menu li{
+    display: inline;
+    float: left;
+    color: white;
+    font-family: 'Rubik';
+    text-transform: lowercase;
+    letter-spacing: 0.4em;
+    font-size: 0.75em;
+    width: 25%;
+    margin: 0;
+    text-align: center;
+}
+
+.menu ul li a{
+    color:white;
+    text-decoration: none;
+}
+
+.menu ul li a:hover{
+    color: #00ECA2;
+}
+
+.menu ul li a.is-active{
+    color: #00ECA2;
+}
