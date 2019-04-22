@@ -1,5 +1,5 @@
 /**
- * LayoutPage component that queries for data
+ * Layout component that queries for data
  * with Gatsby's StaticQuery component
  *
  * See: https://www.gatsbyjs.org/docs/static-query/
@@ -11,12 +11,12 @@ import { StaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
 import Menu from "../components/menu"
-import "./layoutPage.css"
+import "./pageLayout.css"
 
-const LayoutPage = ({ children }) => (
+const PageLayout = ({ children }) => (
   <StaticQuery
     query={graphql`
-      query SiteTitleQueryPage {
+      query SiteTitlePageQuery {
         site {
           siteMetadata {
             title
@@ -31,13 +31,13 @@ const LayoutPage = ({ children }) => (
         <div
           style={{
             margin: `0 auto`,
-            maxWidth: 960,
+            maxWidth: 1280,
             padding: `0px 1.0875rem 1.45rem`,
             paddingTop: 0,
           }}
-          className="site-page"
+          className="page-site"
         >
-          <main className="site-content-page">{children}</main>
+          <main className="page-site-content">{children}</main>
           <footer>
             © Carlos Jiménez {new Date().getFullYear()}, Built with
             {` `}
@@ -49,8 +49,8 @@ const LayoutPage = ({ children }) => (
   />
 )
 
-LayoutPage.propTypes = {
+PageLayout.propTypes = {
   children: PropTypes.node.isRequired,
 }
 
-export default LayoutPage
+export default PageLayout

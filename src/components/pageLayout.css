@@ -9,11 +9,7 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #000785;
-  background-image: none;
-  background-size: 100%;
-  background-position-y: 60vh;
-  background-repeat: no-repeat;
+
 }
 article,
 aside,
@@ -631,16 +627,19 @@ footer{
   display: block;
   font-family: 'Roboto Mono', monospace;
   color:white;
-  font-size: 0.5em;
-  
 }
 
-.site-page {
+.page-site {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
+  background-color: #000785;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position-y:-40vh;
+  background-image: url("../images/PIA19048-1920x1200.png");
 }
 
-.site-content-page {
+.page-site-content {
   flex-grow: 1;
-}   
+}

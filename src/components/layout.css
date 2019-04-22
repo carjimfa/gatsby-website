@@ -10,10 +10,6 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #000785;
-  background-image: url("../images/PIA19048-1920x1200.png");
-  background-size: 100%;
-  background-position-y: 60vh;
-  background-repeat: no-repeat;
 }
 article,
 aside,
@@ -637,6 +633,10 @@ footer{
   display: flex;
   min-height: 100vh;
   flex-direction: column;
+  background-image:url("../images/PIA19048-1920x1200.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position-y:60vh;
 }
 
 .site-content {

@@ -1,18 +1,16 @@
 import React from "react"
 import { Link, StaticQuery } from "gatsby"
 
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-import Intro from "../components/intro"
+import PageLayout from "../components/pageLayout"
+import AboutContent from "../components/AboutContent"
 
 const AboutPage = () => (
-  <Layout>
-    <div style={{width:'100%'}}>
-      <p>
-        Hello! My name is Carlos Jiménez
-      </p>
-    </div>
-  </Layout>
+  <PageLayout>
+    <div class="about" style={{width:'100%'}}>
+      <AboutContent>
+      </AboutContent>
+    </div> 
+  </PageLayout>
 )
 
 export default AboutPage

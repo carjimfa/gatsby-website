@@ -1,0 +1,14 @@
+[
+    {
+        "value":"I’m a Software Engineer currently based in Valencia, Spain. I have a bachelor's degree in software engineering for the Universidad Politécnica de Valencia, and I have been working as a Software Engineer since 2015.",
+        "style":{"color":"white", "font-family":"Rubik"}
+    },
+    {
+        "value":"I have strong knowledge of .NET, C#, T-SQL, Azure, AngularJS, MongoDB, NodeJs, JavaScript, TypeScript, Entity Framework... ",
+        "style":{}
+    },
+    {
+        "value":"I have been writing in blogs since I was fourteen years old, and I love films, series, music and tennis. Additionally: I am a sushi addict.",
+        "style":{}
+    }
+]
