@@ -630,17 +630,13 @@ footer{
   font-size: 10px;
 }
 
-.page-site {
+.page-site-blank {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
   background-color: #000785;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-position-y:-40vh;
-  background-image: url("../images/PIA19048-1920x1200.png");
 }
 
-.page-site-content {
+.page-site-content-blank {
   flex-grow: 1;
 }

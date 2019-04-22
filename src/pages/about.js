@@ -6,7 +6,7 @@ import AboutContent from "../components/AboutContent"
 
 const AboutPage = () => (
   <PageLayout>
-    <div class="about" style={{width:'100%'}}>
+    <div class="about">
       <AboutContent>
       </AboutContent>
     </div> 

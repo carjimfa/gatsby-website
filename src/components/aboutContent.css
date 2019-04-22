@@ -1,10 +1,19 @@
 div.about{
-    width:100vw;
+    width:65%;
+    margin-top: 10vh;
 }
 
-p{
+div.about p{
     font-family: 'Rubik', sans-serif;
+    letter-spacing: 5px;
+    line-height: 4vh;
+    color:#00ECA2;    
 }
-h1{
+
+div.about h1{
     color:white;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 200;
+    font-size: 8vw;
+    text-decoration:underline; 
 }
