@@ -1,0 +1,10 @@
+[
+    {
+        "type":"Experience",
+        "date":"Oct 2017 - Nowadays",
+        "position":"Full Stack Engineer",
+        "company":"Tech Education, Rights and Technologies",
+        "color":"blue",
+        "description":"Since october 2017, I've been working as a software engineer in Aula Salud architecturing and building different applications, systems, APIs, infrastructure and more. I've been a key part of the migration of the entire infrastructure from on-premises virtual private servers to the Azure Cloud. We also have established an entire new user directory with Active Directory and redefined multiple business processes making them more efficient and productive. I've used so far .Net Core 2.2, SQL Server 2017, Azure MySql DB, Azure DB, Windows Server 2016, Active Directory, Sharepoint, Exchange, Docker containers, Powershell..."
+    }
+]

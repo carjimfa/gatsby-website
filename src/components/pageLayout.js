@@ -38,11 +38,11 @@ const PageLayout = ({ children }) => (
           className="page-site"
         >
           <main className="page-site-content">{children}</main>
-          <footer>
+          {/* <footer>
             © Carlos Jiménez {new Date().getFullYear()}, Built with
             {` `}
             <a href="https://www.gatsbyjs.org">Gatsby</a>
-          </footer>
+          </footer> */}
         </div>
       </>
     )}
