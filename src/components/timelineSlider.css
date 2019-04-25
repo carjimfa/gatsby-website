@@ -70,11 +70,16 @@ div.slider-text-title{
     border-bottom: 4px solid #00ECA2;
     padding:1% 0 0 2%;
     width: 50%;
+    min-width: 250px;
 }
 
 div.slider-text-description{
     font-family: 'Roboto Mono', sans-serif;
-    padding:1% 2% 2% 2%;
+    padding: 1% 2% 2% 2%;
+    font-size: 2vh;
+    width: 40vw;
+    min-width: 250px;
+    line-height: 3vh;
 }
 
 div.slider-text-position{
@@ -91,19 +96,27 @@ div.slider-text-company{
 }
 
 div.slider-title-text{
-    margin:2vh 0 10vh 0;
+    margin:2vh 0 0 0;
+    height:4vh;
     text-transform: uppercase;
     color:#000785;
     letter-spacing: 10px;
     font-family: 'Rubik', sans-serif;
     font-weight: lighter;
+    min-width:100px;
 }
 
 div.slider-title-date{
-    color:#00ECA2;
+    color: #00ECA2;
     font-family: 'Rubik', sans-serif;
     text-transform: uppercase;
     font-weight: bold;
     font-size: 2vh;
-    width:10%;
+    width: 10%;
+    bottom: 0;
+    top: auto;
+    line-height: 3vh;
+    height: 6vh;
+    margin-top: calc(10vh - 12px);
+    min-width: 100px;
 }
