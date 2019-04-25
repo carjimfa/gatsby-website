@@ -2,49 +2,49 @@
     {
         "type":"Experience",
         "date":"Oct 2017 - Nowadays",
-        "position":"Full Stack Engineer",
+        "position":"Software Architect",
         "company":"Tech Education, Rights and Technologies",
         "color":"white",
         "description":"Since october 2017, I've been working as a software engineer in Aula Salud architecturing and building different applications, systems, APIs, infrastructure and more. I've been a key part of the migration of the entire infrastructure from on-premises virtual private servers to the Azure Cloud. We also have established an entire new user directory with Active Directory and redefined multiple business processes making them more efficient and productive. I've used so far .Net Core 2.2, SQL Server 2017, Azure MySql DB, Azure DB, Windows Server 2016, Active Directory, Sharepoint, Exchange, Docker containers, Powershell..."
     },
     {
         "type":"Experience",
-        "date":"Oct 2017 - Nowadays",
-        "position":"Full Stack Engineer",
-        "company":"Tech Education, Rights and Technologies",
+        "date":"Aug 2017 - Sep 2017",
+        "position":"Software Engineer",
+        "company":"IVNOSYS Soluciones",
         "color":"blue",
-        "description":"Since october 2017, I've been working as a software engineer in Aula Salud architecturing and building different applications, systems, APIs, infrastructure and more. I've been a key part of the migration of the entire infrastructure from on-premises virtual private servers to the Azure Cloud. We also have established an entire new user directory with Active Directory and redefined multiple business processes making them more efficient and productive. I've used so far .Net Core 2.2, SQL Server 2017, Azure MySql DB, Azure DB, Windows Server 2016, Active Directory, Sharepoint, Exchange, Docker containers, Powershell..."
+        "description":"I worked for only a few weeks in this company and in that period of time I built a complete Web API using .Net Framework 3.5+, MySQL, Entity Framework DB First and a Desktop App using DevExpress."
     },
     {
         "type":"Experience",
-        "date":"Oct 2017 - Nowadays",
-        "position":"Full Stack Engineer",
-        "company":"Tech Education, Rights and Technologies",
+        "date":"Dec 2016 - Aug 2017",
+        "position":"Full Stack Developer",
+        "company":"Customerville",
         "color":"white",
-        "description":"Since october 2017, I've been working as a software engineer in Aula Salud architecturing and building different applications, systems, APIs, infrastructure and more. I've been a key part of the migration of the entire infrastructure from on-premises virtual private servers to the Azure Cloud. We also have established an entire new user directory with Active Directory and redefined multiple business processes making them more efficient and productive. I've used so far .Net Core 2.2, SQL Server 2017, Azure MySql DB, Azure DB, Windows Server 2016, Active Directory, Sharepoint, Exchange, Docker containers, Powershell..."
+        "description":"I worked as a Full Stack Developer working on different projects for differents clients and building UX surveys using AngularJS with Typescript in the Frontend and .NET Framework 4.5+ in the backend and SQL Server as database engine."
     },
     {
         "type":"Experience",
-        "date":"Oct 2017 - Nowadays",
-        "position":"Full Stack Engineer",
-        "company":"Tech Education, Rights and Technologies",
+        "date":"Feb 2015 - Nov 2016",
+        "position":"Software Engineer",
+        "company":"A Million Monkeys SL",
         "color":"blue",
-        "description":"Since october 2017, I've been working as a software engineer in Aula Salud architecturing and building different applications, systems, APIs, infrastructure and more. I've been a key part of the migration of the entire infrastructure from on-premises virtual private servers to the Azure Cloud. We also have established an entire new user directory with Active Directory and redefined multiple business processes making them more efficient and productive. I've used so far .Net Core 2.2, SQL Server 2017, Azure MySql DB, Azure DB, Windows Server 2016, Active Directory, Sharepoint, Exchange, Docker containers, Powershell..."
+        "description":"I started in the company as an intern in February 2015 and in my first year, I became the lead backend engineer in the company. In our main project here, we are developing a complete CRM and is in this project where I'm working most of my time. This led me to work and getting a big knowledge of Microsoft stack: programming in C# and .NET framework and deploying services in Azure. I also had to work in other projects with the business logic in database (stored procedures) and also in front-end working with AngularJs, JavaScript, ExpressJS, NodeJS,Bootstrap, CSS3 and HTML5."
     },
     {
         "type":"Experience",
-        "date":"Oct 2017 - Nowadays",
-        "position":"Full Stack Engineer",
-        "company":"Tech Education, Rights and Technologies",
+        "date":"Mar 2014 - Jun 2014",
+        "position":"Intern as Software Developer",
+        "company":"Fuentes MM El paraíso",
         "color":"white",
-        "description":"Since october 2017, I've been working as a software engineer in Aula Salud architecturing and building different applications, systems, APIs, infrastructure and more. I've been a key part of the migration of the entire infrastructure from on-premises virtual private servers to the Azure Cloud. We also have established an entire new user directory with Active Directory and redefined multiple business processes making them more efficient and productive. I've used so far .Net Core 2.2, SQL Server 2017, Azure MySql DB, Azure DB, Windows Server 2016, Active Directory, Sharepoint, Exchange, Docker containers, Powershell..."
+        "description":"I worked as a developer for the company, developing a CMS for the company's web. I also worked as counselor and technician for the company, integrating a OMR system. I was granted with a Banco Santander Scolarship that allowed me to do this internship."
     },
     {
-        "type":"Experience",
-        "date":"Oct 2017 - Nowadays",
-        "position":"Full Stack Engineer",
-        "company":"Tech Education, Rights and Technologies",
+        "type":"Education",
+        "date":"Sep 2011 - Sep 2015",
+        "position":"Bachelor's Degree in Computer Science",
+        "company":"Universidad Politécnica de Valencia",
         "color":"blue",
-        "description":"Since october 2017, I've been working as a software engineer in Aula Salud architecturing and building different applications, systems, APIs, infrastructure and more. I've been a key part of the migration of the entire infrastructure from on-premises virtual private servers to the Azure Cloud. We also have established an entire new user directory with Active Directory and redefined multiple business processes making them more efficient and productive. I've used so far .Net Core 2.2, SQL Server 2017, Azure MySql DB, Azure DB, Windows Server 2016, Active Directory, Sharepoint, Exchange, Docker containers, Powershell..."
+        "description":"I started my degree in the High Performance Group (called ARA group) and completed the total of ECTS allowed in this group (120ECTS).. I graduated with mentions in my undergraduate final project. I also joined the mentor's program to help exchange students in their first weeks in the city."
     }
 ]
