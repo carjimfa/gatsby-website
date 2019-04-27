@@ -61,8 +61,8 @@ const PageLayoutBlank = ({ children }) => (
             </div>
             <div style={{width:"10vw", float:"left", height:"10vh", fontFamily:"'Rubik', sans-serif", textTransform:"uppercase", fontSize:"1vw", letterSpacing:"0.5vw", color:"#00ECA2"}}>
               <span style={{width:"10vw", float:"left", height:"3.33vh"}}></span>              
-              <span style={{width:"10vw", float:"left", height:"3.33vh"}}>carlos</span>
-              <span style={{width:"10vw", float:"left", height:"3.33vh", fontWeight:"bolder"}}>jiménez</span>
+              <span style={{width:"10vw", float:"left", height:"3.33vh", fontWeight:"bolder"}}>carlos</span>
+              <span style={{width:"10vw", float:"left", height:"3.33vh"}}>jiménez</span>
             </div>
             <div style={{width:"10vw", float:"left", height:"10vh", fontFamily:"'Rubik', sans-serif", textTransform:"uppercase", fontSize:"1vw", letterSpacing:"0.5vw", color:"white"}}>
               <span style={{width:"10vw", float:"left", height:"3.33vh"}}>Built</span>              
