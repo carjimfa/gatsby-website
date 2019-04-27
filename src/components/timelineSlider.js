@@ -90,7 +90,7 @@ function getBlueElement(item){
     <div class="slider-content border-bottom">
         <div class="slider-space blue-background"></div>
         <div class="slider-title blue-background">
-            <div class="slider-title-text">
+            <div class="slider-title-text white-color" style={{color:"white"}}>
                 {item.node.type}
             </div>
             <div class="slider-title-date">

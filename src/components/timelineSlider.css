@@ -23,6 +23,10 @@ div.white-background{
     color:#000785;
 } 
 
+div.white-color{
+    color:white;
+}
+
 div.blue-background{
     background-color:#000785;
     color:white;

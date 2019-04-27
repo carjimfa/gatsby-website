@@ -1,15 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
-    texts:{
-      about:[
-        "I’m a Software Engineer currently based in Valencia, Spain. I have a bachelor's degree in software engineering for the Universidad Politécnica de Valencia, and I have been working as a Software Engineer since 2015.",
-        "I have strong knowledge of .NET, C#, T-SQL, Azure, AngularJS, MongoDB, NodeJs, JavaScript, TypeScript, Entity Framework... ",
-        "I have been writing in blogs since I was fourteen years old, and I love films, series, music and tennis. Additionally: I am a sushi addict."
-      ]
-    }
+    title: `Carlos Jiménez`,
+    description: `Personal website from software engineer Carlos Jimenez aka Carlos Draper Giggs`,
+    author: `@carjimfa`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

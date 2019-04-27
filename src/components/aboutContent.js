@@ -11,6 +11,9 @@ const AboutContent=({children})=>(
                     edges{
                         node{
                             value
+                            style{
+                                fontWeight
+                            }
                         }
                     }
                 }
