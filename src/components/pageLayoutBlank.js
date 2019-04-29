@@ -70,10 +70,10 @@ const PageLayoutBlank = ({ children }) => (
               <span style={{width:"10vw", float:"left", height:"3.33vh", fontWeight:"bolder"}}><a style={{color:"white", textDecoration:"none"}} href="https://www.gatsbyjs.org">Gatsby</a></span>
             </div>
             <div style={{marginLeft:"31vw",width:"9vw", float:"left", height:"10vh", fontFamily:"'Rubik', sans-serif", textTransform:"uppercase", fontSize:"1vw", letterSpacing:"0.5vw", color:"white"}}>
-              <span style={{width:"1.5vw", float:"left", height:"10vh", marginTop:"4.25vh"}}><ImageGithub style={{height:"22px", width:"20px"}}/></span>              
-              <span style={{marginLeft:"1vw",width:"1.5vw", float:"left", height:"10vh", marginTop:"4.25vh"}}><ImageInstagram style={{height:"22px", width:"20px"}}/></span>
-              <span style={{marginLeft:"1vw",width:"1.5vw", float:"left", height:"10vh", marginTop:"4.25vh"}}><ImageLinkedin style={{height:"22px", width:"20px"}}/></span>
-              <span style={{marginLeft:"1vw",width:"1.5vw", float:"left", height:"10vh", marginTop:"4.25vh"}}><ImageTwitter style={{height:"22px", width:"20px"}}/></span>
+              <a href="https://github.com/carjimfa"><span style={{width:"1.5vw", float:"left", height:"10vh", marginTop:"4.25vh"}}><ImageGithub style={{height:"22px", width:"20px"}}/></span></a>              
+              <a href="https://www.instagram.com/_drapergiggs/"><span style={{marginLeft:"1vw",width:"1.5vw", float:"left", height:"10vh", marginTop:"4.25vh"}}><ImageInstagram style={{height:"22px", width:"20px"}}/></span></a>
+              <a href="https://www.linkedin.com/in/cjimenezf/"><span style={{marginLeft:"1vw",width:"1.5vw", float:"left", height:"10vh", marginTop:"4.25vh"}}><ImageLinkedin style={{height:"22px", width:"20px"}}/></span></a>
+              <a href="https://twitter.com/carjimfa"><span style={{marginLeft:"1vw",width:"1.5vw", float:"left", height:"10vh", marginTop:"4.25vh"}}><ImageTwitter style={{height:"22px", width:"20px"}}/></span></a>
             </div>
           </footer>
         </div>
