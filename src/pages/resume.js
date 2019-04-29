@@ -4,7 +4,7 @@ import { StaticQuery, graphql } from "gatsby"
 
 import PageLayoutBlank from "../components/pageLayoutBlank"
 import SEO from "../components/seo"
-import TimelineSlider from "../components/TimelineSlider";
+import TimelineSlider from "../components/timelineSlider";
 
 const ResumePage = () => (
   <PageLayoutBlank>
