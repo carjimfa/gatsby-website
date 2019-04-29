@@ -1,0 +1,36 @@
+.contact-button{
+    background-color:#000785; 
+    font-family:'Roboto Mono', monospace; 
+    padding:1.2vh 2vw 1.2vh 2vw; 
+    border-radius:40px;
+    text-decoration:none;
+    border:1px solid #00ECA2;
+    font-size:1vw;
+    letter-spacing:0.15vw;        
+    color:#00eca2;
+}
+
+.contact-buttons-group{
+    max-width: 40vw;
+    margin: 30vh 30vw 20vh 30vw;
+    text-align:center;
+}
+
+@media screen and (orientation:portrait) {
+    .contact-buttons-group{
+        max-width:90vw!important;
+        margin: 30vh 0 0 0;
+    }
+
+    .contact-button{
+        font-size:2vh;
+        letter-spacing:0.15vw;        
+        color:#00eca2;
+    }
+
+    .contact-buttons-group h1{
+        font-size: 2.2vh !important;
+    }
+    
+}
+
