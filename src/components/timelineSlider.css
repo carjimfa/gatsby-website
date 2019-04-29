@@ -124,3 +124,23 @@ div.slider-title-date{
     margin-top: calc(10vh - 12px);
     min-width: 100px;
 }
+
+@media screen and (orientation:portrait) {
+    .timeline-title{
+        display:none !important;
+    }
+
+    .timeline-title-mobile{
+        display:block !important;
+    }
+}
+
+@media screen and (orientation:landscape) {
+    .timeline-title{
+        display:inline-block !important;
+    }
+
+    .timeline-title-mobile{
+        display:none !important;
+    }
+}
