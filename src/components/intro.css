@@ -29,7 +29,7 @@ div.intro h5{
 }
 
 div.intro h2{
-    font-size:3em;
+    font-size:9vh;
     font-family: 'Roboto Mono', monospace;
     color:#00ECA2;
 }
@@ -40,4 +40,27 @@ div.intro h2 span{
 
 div.msga{
     margin-top: 10%;
+}
+
+@media screen and (orientation:portrait) {
+    div.intro h2{
+        font-size:7vh;
+    }
+
+    div.title{
+        width:100%;
+        margin:0 auto;
+    }
+
+    div.title h1:first-child{
+        font-size:10.3vw !important;
+    }
+
+    div.title h1:last-of-type{
+        font-size:8.8vw !important;
+    }
+
+    div.title h5{
+        font-size:3.75vw !important;
+    }
 }
