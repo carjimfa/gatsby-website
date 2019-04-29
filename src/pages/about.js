@@ -3,9 +3,12 @@ import { Link, StaticQuery } from "gatsby"
 
 import PageLayout from "../components/pageLayout"
 import AboutContent from "../components/aboutContent"
+import SEO from "../components/seo"
+
 
 const AboutPage = () => (
   <PageLayout>
+    <SEO title="About" />    
     <div class="about">
       <AboutContent>
       </AboutContent>

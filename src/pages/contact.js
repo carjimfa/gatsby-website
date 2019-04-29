@@ -9,6 +9,7 @@ import "./contact.css";
 
 const ContactPage = () => (
   <PageLayoutBlank>
+    <SEO title="Contact" />    
     <div className="contact-buttons-group">
       {/* <Image /> */}
       <h1 style={{
