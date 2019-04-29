@@ -9,8 +9,8 @@ import TimelineSlider from "../components/timelineSlider";
 const ResumePage = () => (
   <PageLayoutBlank>
     <SEO title="Resume" />
-    <div class="timeline-title" style={{float:"left", width:"10%", backgroundColor:"#00ECA2", height:"90vh"}}>
-        <h1 style={{color:"#000785",fontFamily:"'Roboto Mono', monospace", transform:"rotate(270deg)", marginTop:"30vh", width:"20vh", textTransform:"uppercase"}}>Time Line</h1>
+    <div class="timeline-title" style={{float:"left", width:"10%", backgroundColor:"#00ECA2", height:"90vh", textAlign:"center"}}>
+        <h1 style={{color:"#000785",fontFamily:"'Roboto Mono', monospace", transform:"rotate(270deg)", marginTop:"35vh", width:"20vh", height:"20vh", textTransform:"uppercase", fontSize:"7.5vh"}}>Time <hr/> Line</h1>
     </div>
     <div class="timeline-title-mobile" style={{width:"100%", backgroundColor:"#00ECA2", height:"10vh"}}>
         <h1 style={{color:"#000785",fontFamily:"'Roboto Mono', monospace", textTransform:"uppercase", textAlign:"center"}}>Time Line</h1>

@@ -125,6 +125,12 @@ div.slider-title-date{
     min-width: 100px;
 }
 
+.timeline-title hr{
+    margin:0;
+    border: 2px white solid;
+    background-color:white;
+}
+
 @media screen and (orientation:portrait) {
     .timeline-title{
         display:none !important;
