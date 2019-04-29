@@ -44,7 +44,7 @@ div.msga{
 
 @media screen and (orientation:portrait) {
     div.intro h2{
-        font-size:7vh;
+        font-size:6vh;
     }
 
     div.title{
