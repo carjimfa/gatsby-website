@@ -7,7 +7,7 @@ import SEO from "../components/seo"
 import TimelineSlider from "../components/timelineSlider";
 
 const ResumePage = () => (
-  <PageLayoutBlank>
+  <PageLayoutBlank renderFooter={true}>
     <SEO title="Resume" />
     <div class="timeline-title" style={{float:"left", width:"10%", backgroundColor:"#00ECA2", height:"90vh", textAlign:"center"}}>
         <h1 style={{color:"#000785",fontFamily:"'Roboto Mono', monospace", transform:"rotate(270deg)", marginTop:"35vh", width:"20vh", height:"20vh", textTransform:"uppercase", fontSize:"7.5vh"}}>Time <hr/> Line</h1>

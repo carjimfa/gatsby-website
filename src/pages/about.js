@@ -4,6 +4,7 @@ import { Link, StaticQuery } from "gatsby"
 import PageLayout from "../components/pageLayout"
 import AboutContent from "../components/aboutContent"
 import SEO from "../components/seo"
+import Footer from "../components/footer"
 
 
 const AboutPage = () => (
@@ -12,7 +13,7 @@ const AboutPage = () => (
     <div class="about">
       <AboutContent>
       </AboutContent>
-    </div> 
+    </div>
   </PageLayout>
 )
 

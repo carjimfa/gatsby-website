@@ -6,6 +6,7 @@ import Image from "../components/image"
 import SEO from "../components/seo"
 import Intro from "../components/intro"
 import "./contact.css";
+import Footer from "../components/footer"
 
 const ContactPage = () => (
   <PageLayoutBlank>
@@ -25,6 +26,9 @@ const ContactPage = () => (
         <a href="mailto:carjimfa@gmail.com" target="blank" class="contact-button">I want to send an email</a>
     </div>
     {/* <Link to="/page-2/">Go to page 2</Link> */}
+    <div style={{marginTop:"35vh"}}>
+      <Footer />      
+    </div>
   </PageLayoutBlank>
 )
 
