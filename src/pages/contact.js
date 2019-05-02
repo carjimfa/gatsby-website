@@ -26,7 +26,7 @@ const ContactPage = () => (
         <a href="mailto:carjimfa@gmail.com" target="blank" class="contact-button">I want to send an email</a>
     </div>
     {/* <Link to="/page-2/">Go to page 2</Link> */}
-    <div style={{marginTop:"35vh"}}>
+    <div>
       <Footer />      
     </div>
   </PageLayoutBlank>

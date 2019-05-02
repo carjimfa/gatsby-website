@@ -8,7 +8,7 @@ import ImageTwitter from "./imageTwitter";
 import "./footer.css";
 
 export default () => (
-  <footer style={{marginTop:"5vh"}}>
+  <footer style={{top:"calc(100vh - 6vh)", height:"6vh", position:"fixed"}}>
     <div className="footer-group footer-small-group">
       <span className="footer-element" style={{fontWeight:"bolder"}}>Des</span>
       <span className="footer-element" style={{fontWeight:"bolder"}}>ign</span>
