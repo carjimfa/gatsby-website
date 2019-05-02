@@ -1,0 +1,118 @@
+.what-can-i-do{
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bolder;
+    font-size: 6vw;
+    text-decoration: underline;
+    margin: 12vh 0 16vh 0;
+    height: 6vw;
+    line-height: 6vw;
+}
+
+.services{
+    margin:5vh 2vw 0 2vw;
+}
+
+.service{
+    width:100%;
+}
+
+.services>.service:nth-child(odd) .service-title{
+    text-align: right;
+    margin-left: 50%;
+}
+
+.services>.service:nth-child(odd) .service-description{
+    text-align: right;
+    margin-left: 50%;
+}
+
+.service-title{
+    width:50%;
+    color:#00eca2;
+    font-family: 'Roboto Mono', monospace;
+    margin:0;
+    font-size: 2.5vw;
+}
+
+.service-description{
+    color:white;
+    font-family: 'Rubik';
+    width:50%;
+}
+
+.duotone-background{
+    background-image: url("../images/PIA16853_orig.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height:20vw;
+    width:35vw;
+    position: absolute;
+    top:0;
+    right:0;
+}
+
+.duotone::before {
+    background-color:#00eca2;
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    mix-blend-mode: darken;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .duotone::after {
+    background-color: #000785;
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    mix-blend-mode: lighten;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  @media screen and (orientation:portrait) {
+    .duotone-background{
+        width:100vw;
+        height:50vw;
+        background-size: 50%;
+        position: absolute;
+        background-position: center center;
+    }
+
+    .services>.service:nth-child(odd) .service-title{
+        margin-left: 0%;
+    }
+    
+    .services>.service:nth-child(odd) .service-description{
+        margin-left: 0%;
+    }
+
+    .service-title{
+        padding: 2vh 5vw 2vh 5vw;
+        margin:0;
+        width:100%;
+        font-size: 5vh;
+    }
+    
+    .service-description{
+        margin:0;
+        padding: 0 5vw 0 5vw;
+        width:100%;
+    }
+
+    .what-can-i-do{
+
+        font-size: 6vh;
+        text-decoration: underline;
+        margin: 50vw 5vw 5vh 5vw;
+        height: 12vh;
+        line-height: 6vh;
+    }
+
+  }

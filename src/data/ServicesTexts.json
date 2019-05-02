@@ -1,0 +1,18 @@
+[
+    {
+        "title":"APIs based in the Microsoft Stack",
+        "description":"I can build different .Net and .Net core projects to build APIs following RESTful principles, or CQRS principles, with MVC architecture or SOA architecture. To build these APIs I mostly use the Microsoft Stack with .Net Framework 3.5+ or .Net Core 1.0+ and using SQL Server or MySQL as DBMS. I also like to use Entity Framework as ORM, using it to build the database model from scratch using code first approach or with a db first approach with new/existing databases. I've deployed many apps to Azure directly using Docker or App Services and also to IIS in a Windows Server machine."
+    },
+    {
+        "title":"Apps based in the MEAN Stack",
+        "description":"Since the final project in my career degree, I've been using NodeJS as backend/frontend framework to build many apps. Many of them were APIs using NodeJS + Express + MongoDB + Mongoose for the backend and Angular + Express + NodeJS for the frontend. Lately I've been using Net Core in the frontend or webpack but I can return to the old ways and launch the frontend app with NodeJs."
+    },
+    {
+        "title":"Desktop tools",
+        "description":"Sometimes I've been asked to develop small utilities or programs to run once or twice or as a regular basis, just to perform different tasks in a fast and controlled environment. If you have a CSV file with tons of contacts and you want to use a transactional email provider like SendGrid, MailChimp or ElasticEmail to impact those users, or perform an operation in a very big database once in a while, I can build an small console app to make this possible. I like to use PowerShell or .Net Core to perform this but I have also been ask to do this in PHP or even bash."
+    },
+    {
+        "title":"Office 365 & Active Directory Operations",
+        "description":"I have used Exchange, Sharepoint and Active Directory for the past 2 years and I've been in charge of different tasks such as migrations from on-premises infrastructure to Active Directory + Office 365, Exchange mail flow rules, permissions and security, Sharepoint multi-site-collections administration, licenses administration, active directory groups administration, migration of hundreds of GBs of video and image data from an on premise infrastructure to Sharepoint... these weren't easy tasks that anyone can perform and required a lot of research and knowledge and testing."
+    }
+]
