@@ -78,7 +78,8 @@
 
   @media screen and (orientation:portrait) {
     .duotone-background{
-        width:100vw;
+        width:90vw;
+        margin: 0 5vw 0 5vw;
         height:50vw;
         background-size: 50%;
         position: absolute;

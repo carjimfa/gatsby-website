@@ -5,40 +5,16 @@ import PageLayoutBlank from "../components/pageLayoutBlank"
 import AboutContent from "../components/aboutContent"
 import SEO from "../components/seo"
 import Footer from "../components/footer"
-import BackgroundImage from 'gatsby-background-image'
+import "./about.css"
 
 const AboutPage = () => (
   <PageLayoutBlank>
-    <StaticQuery query={graphql`
-      query {
-        desktop: file(relativePath: { eq: "PIA19952_orig.jpg" }) {
-          childImageSharp {
-            fluid(quality: 75, maxWidth: 2800) {
-              ...GatsbyImageSharpFluid_withWebp
-            }
-          }
-        }
-      }
-    `}
-     render={data => {
-       // Set ImageData.
-       const imageData = data.desktop.childImageSharp.fluid
-       return (
-          <BackgroundImage Tag="section"
-                           fluid={imageData}
-                           backgroundColor={`#000785`}
-                           style={{backgroundSize:"20vw", backgroundPosition:"top left"}}
-          >
     <SEO title="About" />    
     <div class="about">
       <AboutContent>
       </AboutContent>
+      <div className="about-image"></div>   
     </div>
-    </BackgroundImage>
-       )
-     }
-     }
-    />
   </PageLayoutBlank>
 )
 
