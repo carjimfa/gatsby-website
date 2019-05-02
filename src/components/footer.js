@@ -1,9 +1,9 @@
 import React from "react"
 import { Link } from "gatsby";
-import ImageGithub from "./imageGithub";
-import ImageInstagram from "./imageInstagram";
-import ImageLinkedin from "./imageLinkedin";
-import ImageTwitter from "./imageTwitter";
+import githubImage from "../images/github.svg";
+import instagramImage from "../images/instagram.svg";
+import linkedinImage from "../images/linkedin.svg";
+import twitterImage from "../images/twitter.svg";
 
 import "./footer.css";
 
@@ -35,10 +35,10 @@ export default () => (
     <span className="footer-element" style={{fontWeight:"bolder"}}><a style={{color:"white", textDecoration:"none"}} href="https://www.gatsbyjs.org">Gatsby</a></span>
   </div>
   <div className="footer-image-group">
-    <a href="https://github.com/carjimfa"><span className="image-container"><ImageGithub className="image"/></span></a>              
-    <a href="https://www.instagram.com/_drapergiggs/"><span className="image-container image-container-left"><ImageInstagram className="image"/></span></a>
-    <a href="https://www.linkedin.com/in/cjimenezf/"><span className="image-container image-container-left"><ImageLinkedin className="image"/></span></a>
-    <a href="https://twitter.com/carjimfa"><span className="image-container image-container-left"><ImageTwitter className="image"/></span></a>
+    <a href="https://github.com/carjimfa"><span className="image-container"><img src={githubImage} className="image"/></span></a>              
+    <a href="https://www.instagram.com/_drapergiggs/"><span className="image-container image-container-left"><img src={instagramImage} className="image"/></span></a>
+    <a href="https://www.linkedin.com/in/cjimenezf/"><span className="image-container image-container-left"><img src={linkedinImage} className="image"/></span></a>
+    <a href="https://twitter.com/carjimfa"><span className="image-container image-container-left"><img src={twitterImage} className="image"/></span></a>
   </div>
 </footer>
   
