@@ -9,6 +9,27 @@
     line-height: 6vw;
 }
 
+.what-on-your-mind{
+    color: #00eca2;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bolder;
+    font-size: 3.5vw;
+    margin: 12vh 0 2vh 0;
+    height: 6vw;
+    line-height: 6vw;
+    text-align: center;
+}
+
+.what-on-your-mind-p{
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bolder;
+    font-size: 2vw;
+    margin: 2vh 0 4vh 0;
+    line-height: 3vw;
+    text-align: center;
+}
+
 .services{
     margin:5vh 2vw 0 2vw;
 }
