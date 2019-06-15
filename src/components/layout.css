@@ -637,8 +637,24 @@ footer{
   background-repeat: no-repeat;
   background-size: 100%;
   background-position-y:60vh;
+  animation:site-bg-anim 7s infinite;
 }
 
 .site-content {
   flex-grow: 1;
+}
+
+
+@keyframes site-bg-anim {
+	0% {
+		background-position-y:60vh;
+	}
+
+	50% {
+		background-position-y:65vh;
+	}
+
+	100% {
+		background-position-y:60vh;
+	}
 }

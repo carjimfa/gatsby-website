@@ -13,7 +13,6 @@ const AboutPage = () => (
     <div class="about">
       <AboutContent>
       </AboutContent>
-      <div className="about-image"></div>   
     </div>
   </PageLayoutBlank>
 )

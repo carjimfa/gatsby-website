@@ -6,8 +6,9 @@
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
     "fitty": "^2.2.6",
-    "gatsby": "^2.3.16",
+    "gatsby": "^2.9.4",
     "gatsby-background-image": "^0.5.0",
+    "gatsby-cli": "^2.5.15",
     "gatsby-image": "^2.0.37",
     "gatsby-plugin-manifest": "^2.0.28",
     "gatsby-plugin-offline": "^2.0.25",

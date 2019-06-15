@@ -23,7 +23,6 @@ const Services=({children})=>(
             <div className="services">
                 <h1 className="what-can-i-do">What can I do?</h1>
                 {getServicesTexts(data)}
-                <div className="duotone-background duotone"></div>
                 <h1 className="what-on-your-mind">What do you have on mind?</h1>
                 <p className="what-on-your-mind-p">Any other projects, services or whatever, you can <Link to="/contact/">contact me</Link> and we can have a chat, a sky or a coffee... I really love coffee btw. So, if you're not sure, just ask.</p>               
             </div>

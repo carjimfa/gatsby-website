@@ -34,7 +34,7 @@ const Layout = ({ children }) => (
             maxWidth: 1280,
             padding: `0`
           }}
-          className="site"
+          className="site duotone-bg"
         >
           <main className="site-content">{children}</main>
           {/* <footer>
