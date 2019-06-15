@@ -1,6 +1,8 @@
 import React from "react"
 import { StaticQuery, graphql } from "gatsby"
 import "./aboutContent.css"
+import "./glitch.css";
+import "./cray.css";
 
 const AboutContent=({children})=>(
     <StaticQuery
@@ -21,7 +23,7 @@ const AboutContent=({children})=>(
         }
         render = {data=>(
             <>
-            <h1>Hello!</h1>
+            <h1 className="glitch cray" data-text="Hello!">Hello!</h1>
             {getAboutTexts(data)}
             </>
         )}
