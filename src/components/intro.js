@@ -3,9 +3,10 @@ import "./intro.css";
 import "./glitch.css";
 import "./cray.css";
 import fitty from "fitty";
+import "animate.min.css";
 
 export default () => (
-  <div className="intro">
+  <div className="intro" id="intro">
     <div className="title">
         <h1 className="glitch cray" data-text="CARLOS" style={{'font-size': '3vw'}}>Carlos</h1>
         <h1 className="glitch cray" data-text="JIMENEZ" style={{'font-size': '2.58vw'}}>Jiménez</h1>

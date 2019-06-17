@@ -15,8 +15,6 @@ import "./pageLayoutBlank.css"
 
 import Footer from "./footer";
 
-
-
 const PageLayoutBlank = ({ children }) => (
   <StaticQuery
     query={graphql`

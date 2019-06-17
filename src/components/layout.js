@@ -11,6 +11,7 @@ import { StaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
 import Menu from "../components/menu"
+import "animate.min.css"
 import "./layout.css"
 
 const Layout = ({ children }) => (
@@ -29,6 +30,7 @@ const Layout = ({ children }) => (
         {/* <Header siteTitle={data.site.siteMetadata.title} /> */}
         <Menu />
         <div
+          id="site"
           style={{
             margin: `0 auto`,
             maxWidth: 1280,
@@ -36,7 +38,7 @@ const Layout = ({ children }) => (
           }}
           className="site duotone-bg"
         >
-          <main className="site-content">{children}</main>
+          <main className="site-content" id="site-content">{children}</main>
           {/* <footer>
             © Carlos Jiménez {new Date().getFullYear()}, Built with
             {` `}

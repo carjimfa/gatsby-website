@@ -4,9 +4,11 @@ import "./aboutContent.css"
 import "./glitch.css";
 import "./cray.css";
 
+
 const AboutContent=({children})=>(
     <StaticQuery
-        query={
+    id="about-content"    
+    query={
             graphql`
             query AboutTextsItemsQuery{
                 allAboutTextsJson{

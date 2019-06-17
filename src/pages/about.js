@@ -7,10 +7,11 @@ import SEO from "../components/seo"
 import Footer from "../components/footer"
 import "./about.css"
 
+
 const AboutPage = () => (
   <PageLayoutBlank>
     <SEO title="About" />    
-    <div class="about">
+    <div class="about" id="about">
       <AboutContent>
       </AboutContent>
     </div>
