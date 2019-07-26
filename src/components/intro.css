@@ -31,11 +31,11 @@ div.intro h5{
 div.intro h2{
     font-size:9vh;
     font-family: 'Roboto Mono', monospace;
-    color:#00ECA2;
+    color:white;
 }
 
 div.intro h2 span{
-    color:white;
+    color:#00ECA2;
 }
 
 div.msga{
